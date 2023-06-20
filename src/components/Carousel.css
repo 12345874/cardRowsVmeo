@@ -1,0 +1,13 @@
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  gap: 10px;
+}
+
+.card {
+  grid-column-end: span 2;
+}
+
+.card:nth-child(3) {
+  grid-column-end: span 4;
+}
